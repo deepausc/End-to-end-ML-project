@@ -1,0 +1,1584 @@
+[2024-08-14 11:31:57,533: INFO: main: Welcome to our custom logger:]
+[2024-08-14 23:35:49,022: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-14 23:35:49,029: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-14 23:35:49,035: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-14 23:35:49,035: ERROR: main: name 'BoxvalueError' is not defined:]
+Traceback (most recent call last):
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/utils/common.py", line 26, in read_yaml
+    return ConfigBox(content)
+           ^^^^^^^^^^^^^^^^^^
+  File "box/box.py", line 284, in box.box.Box.__init__
+box.exceptions.BoxValueError: Cannot extrapolate Box from string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/deepa/End-to-end-ML-project/main.py", line 9, in <module>
+    obj.main()
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/pipeline/stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/config/configuration.py", line 14, in __init__
+    self.params = read_yaml(params_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/.local/pip3/venv/lib/python3.12/site-packages/ensure/main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/utils/common.py", line 28, in read_yaml
+    except BoxvalueError:
+           ^^^^^^^^^^^^^
+NameError: name 'BoxvalueError' is not defined. Did you mean: 'BoxValueError'?
+[2024-08-14 23:36:41,149: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-14 23:36:41,153: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-14 23:36:41,159: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-14 23:36:41,160: ERROR: main: Yaml file is empty:]
+Traceback (most recent call last):
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/utils/common.py", line 26, in read_yaml
+    return ConfigBox(content)
+           ^^^^^^^^^^^^^^^^^^
+  File "box/box.py", line 284, in box.box.Box.__init__
+box.exceptions.BoxValueError: Cannot extrapolate Box from string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/deepa/End-to-end-ML-project/main.py", line 9, in <module>
+    obj.main()
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/pipeline/stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/config/configuration.py", line 14, in __init__
+    self.params = read_yaml(params_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/.local/pip3/venv/lib/python3.12/site-packages/ensure/main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/utils/common.py", line 29, in read_yaml
+    raise ValueError("Yaml file is empty")
+ValueError: Yaml file is empty
+[2024-08-14 23:57:37,940: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-14 23:57:37,945: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-14 23:57:37,964: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-14 23:57:37,965: ERROR: main: Yaml file is empty:]
+Traceback (most recent call last):
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/utils/common.py", line 26, in read_yaml
+    return ConfigBox(content)
+           ^^^^^^^^^^^^^^^^^^
+  File "box/box.py", line 284, in box.box.Box.__init__
+box.exceptions.BoxValueError: Cannot extrapolate Box from string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/deepa/End-to-end-ML-project/main.py", line 9, in <module>
+    obj.main()
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/pipeline/stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/config/configuration.py", line 14, in __init__
+    self.params = read_yaml(params_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/.local/pip3/venv/lib/python3.12/site-packages/ensure/main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/utils/common.py", line 29, in read_yaml
+    raise ValueError("Yaml file is empty")
+ValueError: Yaml file is empty
+[2024-08-14 23:59:55,176: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-14 23:59:55,180: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-14 23:59:55,192: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-14 23:59:55,192: ERROR: main: Cannot extrapolate Box from string:]
+Traceback (most recent call last):
+  File "/Users/deepa/End-to-end-ML-project/main.py", line 9, in <module>
+    obj.main()
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/pipeline/stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/config/configuration.py", line 14, in __init__
+    self.params = read_yaml(params_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/.local/pip3/venv/lib/python3.12/site-packages/ensure/main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/utils/common.py", line 31, in read_yaml
+    raise e
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/utils/common.py", line 26, in read_yaml
+    return ConfigBox(content)
+           ^^^^^^^^^^^^^^^^^^
+  File "box/box.py", line 284, in box.box.Box.__init__
+box.exceptions.BoxValueError: Cannot extrapolate Box from string
+[2024-08-15 00:00:23,043: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 00:00:23,047: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 00:00:23,064: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 00:00:23,064: ERROR: main: Cannot extrapolate Box from string:]
+Traceback (most recent call last):
+  File "/Users/deepa/End-to-end-ML-project/main.py", line 9, in <module>
+    obj.main()
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/pipeline/stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/config/configuration.py", line 14, in __init__
+    self.params = read_yaml(params_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/.local/pip3/venv/lib/python3.12/site-packages/ensure/main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/utils/common.py", line 31, in read_yaml
+    raise e
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/utils/common.py", line 26, in read_yaml
+    return ConfigBox(content)
+           ^^^^^^^^^^^^^^^^^^
+  File "box/box.py", line 284, in box.box.Box.__init__
+box.exceptions.BoxValueError: Cannot extrapolate Box from string
+[2024-08-15 00:05:36,316: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 00:05:36,320: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 00:05:36,326: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 00:05:36,332: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 00:05:36,335: ERROR: main: create_directories() missing 1 required positional argument: 'verbose':]
+Traceback (most recent call last):
+  File "/Users/deepa/End-to-end-ML-project/main.py", line 9, in <module>
+    obj.main()
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/pipeline/stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/config/configuration.py", line 17, in __init__
+    create_directories([self.config.artifacts_root])
+  File "/Users/deepa/.local/pip3/venv/lib/python3.12/site-packages/ensure/main.py", line 835, in __call__
+    return self.f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: create_directories() missing 1 required positional argument: 'verbose'
+[2024-08-15 00:08:00,432: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 00:08:00,437: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 00:08:00,447: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 00:08:00,455: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 00:08:00,458: ERROR: main: isinstance() arg 2 must be a type, a tuple of types, or a union:]
+Traceback (most recent call last):
+  File "/Users/deepa/End-to-end-ML-project/main.py", line 9, in <module>
+    obj.main()
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/pipeline/stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/config/configuration.py", line 17, in __init__
+    create_directories([self.config.artifacts_root], True)
+  File "/Users/deepa/.local/pip3/venv/lib/python3.12/site-packages/ensure/main.py", line 831, in __call__
+    if not isinstance(value, templ):
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: isinstance() arg 2 must be a type, a tuple of types, or a union
+[2024-08-15 00:10:14,476: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 00:10:14,481: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 00:10:14,486: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 00:10:14,489: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 00:10:14,495: ERROR: main: create_directories() missing 1 required positional argument: 'verbose':]
+Traceback (most recent call last):
+  File "/Users/deepa/End-to-end-ML-project/main.py", line 9, in <module>
+    obj.main()
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/pipeline/stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/config/configuration.py", line 17, in __init__
+    create_directories([self.config.artifacts_root])
+  File "/Users/deepa/.local/pip3/venv/lib/python3.12/site-packages/ensure/main.py", line 835, in __call__
+    return self.f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: create_directories() missing 1 required positional argument: 'verbose'
+[2024-08-15 00:11:23,536: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 00:11:23,540: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 00:11:23,545: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 00:11:23,548: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 00:11:23,550: INFO: common: created directory at artifacts:]
+[2024-08-15 00:11:23,551: ERROR: main: "'ConfigBox' object has no attribute 'root_dir'":]
+Traceback (most recent call last):
+  File "box/box.py", line 593, in box.box.Box.__getitem__
+KeyError: 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 632, in box.box.Box.__getattr__
+  File "box/box.py", line 620, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'root_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 634, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 648, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 593, in box.box.Box.__getitem__
+KeyError: 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 632, in box.box.Box.__getattr__
+  File "box/box.py", line 620, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'root_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 634, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/deepa/End-to-end-ML-project/main.py", line 9, in <module>
+    obj.main()
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/pipeline/stage_01_data_ingestion.py", line 14, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/config/configuration.py", line 24, in get_data_ingestion_config
+    create_directories([self.config.root_dir])
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "box/config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 648, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root_dir'"
+[2024-08-15 00:17:37,505: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 00:17:37,509: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 00:17:37,515: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 00:17:37,539: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 00:17:37,544: INFO: common: created directory at artifacts:]
+[2024-08-15 00:17:37,546: ERROR: main: "'ConfigBox' object has no attribute 'root_dir'":]
+Traceback (most recent call last):
+  File "box/box.py", line 593, in box.box.Box.__getitem__
+KeyError: 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 632, in box.box.Box.__getattr__
+  File "box/box.py", line 620, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'root_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 634, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 648, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 593, in box.box.Box.__getitem__
+KeyError: 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 632, in box.box.Box.__getattr__
+  File "box/box.py", line 620, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'root_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 634, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/deepa/End-to-end-ML-project/main.py", line 9, in <module>
+    obj.main()
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/pipeline/stage_01_data_ingestion.py", line 14, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/config/configuration.py", line 24, in get_data_ingestion_config
+    create_directories([self.config.root_dir])
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "box/config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 648, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root_dir'"
+[2024-08-15 09:23:20,241: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 09:23:20,244: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 09:23:20,251: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 09:23:20,260: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 09:23:20,277: INFO: common: created directory at artifacts:]
+[2024-08-15 09:23:20,277: ERROR: main: create_directories() missing 1 required positional argument: 'verbose':]
+Traceback (most recent call last):
+  File "/Users/deepa/End-to-end-ML-project/main.py", line 9, in <module>
+    obj.main()
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/pipeline/stage_01_data_ingestion.py", line 14, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/config/configuration.py", line 24, in get_data_ingestion_config
+    create_directories([config.root_dir])
+  File "/Users/deepa/.local/pip3/venv/lib/python3.12/site-packages/ensure/main.py", line 835, in __call__
+    return self.f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: create_directories() missing 1 required positional argument: 'verbose'
+[2024-08-15 09:24:43,595: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 09:24:43,600: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 09:24:43,607: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 09:24:43,611: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 09:24:43,613: ERROR: main: create_directories() missing 1 required positional argument: 'verbose':]
+Traceback (most recent call last):
+  File "/Users/deepa/End-to-end-ML-project/main.py", line 9, in <module>
+    obj.main()
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/pipeline/stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/config/configuration.py", line 17, in __init__
+    create_directories([self.config.artifacts_root])
+  File "/Users/deepa/.local/pip3/venv/lib/python3.12/site-packages/ensure/main.py", line 835, in __call__
+    return self.f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: create_directories() missing 1 required positional argument: 'verbose'
+[2024-08-15 09:28:51,769: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 09:28:51,773: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 09:28:51,779: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 09:28:51,784: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 09:28:51,787: INFO: common: created directory at artifacts:]
+[2024-08-15 09:28:51,789: INFO: common: created directory at artifacts/data_ingestion:]
+[2024-08-15 09:28:51,789: ERROR: main: "'ConfigBox' object has no attribute 'source_url'":]
+Traceback (most recent call last):
+  File "box/box.py", line 593, in box.box.Box.__getitem__
+KeyError: 'Source_URL'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 632, in box.box.Box.__getattr__
+  File "box/box.py", line 620, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'Source_URL'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 634, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'Source_URL'. Did you mean: 'source_URL'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 648, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'Source_URL'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 593, in box.box.Box.__getitem__
+KeyError: 'source_url'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 632, in box.box.Box.__getattr__
+  File "box/box.py", line 620, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'source_url'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 634, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'source_url'. Did you mean: 'source_URL'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/deepa/End-to-end-ML-project/main.py", line 9, in <module>
+    obj.main()
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/pipeline/stage_01_data_ingestion.py", line 14, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/config/configuration.py", line 28, in get_data_ingestion_config
+    source_URL = config.Source_URL,
+                 ^^^^^^^^^^^^^^^^^
+  File "box/config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 648, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'source_url'". Did you mean: 'source_URL'?
+[2024-08-15 09:30:37,286: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 09:30:37,290: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 09:30:37,296: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 09:30:37,300: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 09:30:37,305: INFO: common: created directory at artifacts:]
+[2024-08-15 09:30:37,306: INFO: common: created directory at artifacts/data_ingestion:]
+[2024-08-15 09:30:38,508: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_injestion/data.zip':]
+Traceback (most recent call last):
+  File "/Users/deepa/End-to-end-ML-project/main.py", line 9, in <module>
+    obj.main()
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/pipeline/stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.download_file()
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/components/data_ingestion.py", line 16, in download_file
+    filename, headers = request.urlretrieve(url=self.config.source_URL,
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.12/3.12.5/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/request.py", line 250, in urlretrieve
+    tfp = open(filename, 'wb')
+          ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_injestion/data.zip'
+[2024-08-15 09:35:26,483: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 09:35:26,487: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 09:35:26,499: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 09:35:26,508: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 09:35:26,510: INFO: common: created directory at artifacts:]
+[2024-08-15 09:35:26,510: INFO: common: created directory at artifacts/data_ingestion:]
+[2024-08-15 09:35:27,073: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_injestion/data.zip':]
+Traceback (most recent call last):
+  File "/Users/deepa/End-to-end-ML-project/main.py", line 9, in <module>
+    obj.main()
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/pipeline/stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.download_file()
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/components/data_ingestion.py", line 16, in download_file
+    filename, headers = request.urlretrieve(url=self.config.source_URL,
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.12/3.12.5/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/request.py", line 250, in urlretrieve
+    tfp = open(filename, 'wb')
+          ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_injestion/data.zip'
+[2024-08-15 09:36:26,960: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 09:36:26,963: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 09:36:26,969: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 09:36:26,976: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 09:36:26,979: INFO: common: created directory at artifacts:]
+[2024-08-15 09:36:26,979: INFO: common: created directory at artifacts/data_ingestion:]
+[2024-08-15 09:36:27,490: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_injestion/winequality-data.zip':]
+Traceback (most recent call last):
+  File "/Users/deepa/End-to-end-ML-project/main.py", line 9, in <module>
+    obj.main()
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/pipeline/stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.download_file()
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/components/data_ingestion.py", line 16, in download_file
+    filename, headers = request.urlretrieve(url=self.config.source_URL,
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.12/3.12.5/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/request.py", line 250, in urlretrieve
+    tfp = open(filename, 'wb')
+          ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_injestion/winequality-data.zip'
+[2024-08-15 09:39:33,024: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 09:39:33,027: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 09:39:33,033: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 09:39:33,038: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 09:39:33,046: INFO: common: created directory at artifacts:]
+[2024-08-15 09:39:33,046: INFO: common: created directory at artifacts/data_ingestion:]
+[2024-08-15 09:39:33,569: INFO: data_ingestion: artifacts/data_ingestion/data.zip download with following headers Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4A90:631B5:2422A1:264D4A:66BE2D2E
+Accept-Ranges: bytes
+Date: Thu, 15 Aug 2024 16:39:34 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770080-PAO
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1723739974.233187,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 18be0de0121a0d33041e3410dc56ae7b488cb76d
+Expires: Thu, 15 Aug 2024 16:44:34 GMT
+Source-Age: 186
+
+:]
+[2024-08-15 09:39:33,576: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has completed
+
+**********:]
+[2024-08-15 09:43:34,521: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 09:43:34,525: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 09:43:34,549: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 09:43:34,551: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 09:43:34,553: INFO: common: created directory at artifacts:]
+[2024-08-15 09:43:34,553: INFO: common: created directory at artifacts/data_ingestion:]
+[2024-08-15 09:43:35,634: INFO: data_ingestion: artifacts/data_ingestion/data.zip download with following headers Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4A90:631B5:2422A1:264D4A:66BE2D2E
+Accept-Ranges: bytes
+Date: Thu, 15 Aug 2024 16:43:36 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770068-PAO
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1723740216.062372,VS0,VE141
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 437aff4a1a30a8c8bdb7f2c2a44c0687dd159ef2
+Expires: Thu, 15 Aug 2024 16:48:36 GMT
+Source-Age: 0
+
+:]
+[2024-08-15 09:43:35,640: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has completed
+
+**********:]
+[2024-08-15 09:43:35,640: INFO: main: starting <<<<<<<<< {stage_name} >>>>>>>>>>>:]
+[2024-08-15 09:43:35,644: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 09:43:35,646: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 09:43:35,659: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 09:43:35,659: INFO: common: created directory at artifacts:]
+[2024-08-15 09:43:35,660: INFO: common: created directory at artifacts/data_validation:]
+[2024-08-15 09:43:35,710: INFO: main:  <<<<<<<<< {stage_name} completed >>>>>>>>>>>:]
+[2024-08-15 09:44:28,852: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 09:44:28,855: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 09:44:28,868: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 09:44:28,871: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 09:44:28,873: INFO: common: created directory at artifacts:]
+[2024-08-15 09:44:28,873: INFO: common: created directory at artifacts/data_ingestion:]
+[2024-08-15 09:44:29,351: INFO: data_ingestion: artifacts/data_ingestion/data.zip download with following headers Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4A90:631B5:2422A1:264D4A:66BE2D2E
+Accept-Ranges: bytes
+Date: Thu, 15 Aug 2024 16:44:30 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770028-PAO
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1723740270.017442,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 8c3217a754286a237e2d88be24f175fd45162694
+Expires: Thu, 15 Aug 2024 16:49:30 GMT
+Source-Age: 54
+
+:]
+[2024-08-15 09:44:29,357: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has completed
+
+**********:]
+[2024-08-15 09:44:29,357: INFO: main: starting <<<<<<<<< Data validation Stage >>>>>>>>>>>:]
+[2024-08-15 09:44:29,366: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 09:44:29,367: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 09:44:29,369: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 09:44:29,370: INFO: common: created directory at artifacts:]
+[2024-08-15 09:44:29,370: INFO: common: created directory at artifacts/data_validation:]
+[2024-08-15 09:44:29,394: INFO: main:  <<<<<<<<< Data validation Stage completed >>>>>>>>>>>:]
+[2024-08-15 10:27:12,259: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 10:27:12,263: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 10:27:12,270: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 10:27:12,281: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 10:27:12,282: INFO: common: created directory at artifacts:]
+[2024-08-15 10:27:12,283: INFO: common: created directory at artifacts/data_ingestion:]
+[2024-08-15 10:27:13,175: INFO: data_ingestion: artifacts/data_ingestion/data.zip download with following headers Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4A90:631B5:2422A1:264D4A:66BE2D2E
+Accept-Ranges: bytes
+Date: Thu, 15 Aug 2024 17:27:13 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770054-PAO
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1723742834.757388,VS0,VE131
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: a1a014c19548893865a8d56053c3a1d86bd1520b
+Expires: Thu, 15 Aug 2024 17:32:13 GMT
+Source-Age: 0
+
+:]
+[2024-08-15 10:27:13,183: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has completed
+
+**********:]
+[2024-08-15 10:27:13,183: INFO: main: starting <<<<<<<<< Data validation Stage >>>>>>>>>>>:]
+[2024-08-15 10:27:13,188: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 10:27:13,189: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 10:27:13,194: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 10:27:13,195: INFO: common: created directory at artifacts:]
+[2024-08-15 10:27:13,196: INFO: common: created directory at artifacts/data_validation:]
+[2024-08-15 10:27:13,221: INFO: main:  <<<<<<<<< Data validation Stage completed >>>>>>>>>>>:]
+[2024-08-15 10:27:13,221: INFO: main: <<<<<<<<<< Data Transformation stage started >>>>>>>>>>>>>:]
+[2024-08-15 10:27:13,224: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 10:27:13,226: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 10:27:13,232: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 10:27:13,233: INFO: common: created directory at artifacts:]
+[2024-08-15 10:27:13,233: INFO: common: created directory at artifacts/data_transformation:]
+[2024-08-15 10:27:13,233: ERROR: main: DataTransformationConfig.__init__() got an unexpected keyword argument 'root_dir':]
+Traceback (most recent call last):
+  File "/Users/deepa/End-to-end-ML-project/main.py", line 35, in <module>
+    obj.main()
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/pipeline/stage_03_data_transformation.py", line 14, in main
+    data_transformation_config = config.get_data_transformation_config()
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/config/configuration.py", line 53, in get_data_transformation_config
+    data_transformation_config = DataTransformationConfig(
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DataTransformationConfig.__init__() got an unexpected keyword argument 'root_dir'
+[2024-08-15 10:34:38,953: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 10:34:38,958: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 10:34:38,963: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 10:34:38,967: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 10:34:38,968: INFO: common: created directory at artifacts:]
+[2024-08-15 10:34:38,972: INFO: common: created directory at artifacts/data_ingestion:]
+[2024-08-15 10:34:39,688: INFO: data_ingestion: artifacts/data_ingestion/data.zip download with following headers Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4A90:631B5:2422A1:264D4A:66BE2D2E
+Accept-Ranges: bytes
+Date: Thu, 15 Aug 2024 17:34:40 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770066-PAO
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1723743280.293652,VS0,VE113
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: e3be98c414a9e5498b6c9fee68791104e9d91117
+Expires: Thu, 15 Aug 2024 17:39:40 GMT
+Source-Age: 0
+
+:]
+[2024-08-15 10:34:39,695: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has completed
+
+**********:]
+[2024-08-15 10:34:39,696: INFO: main: starting <<<<<<<<< Data validation Stage >>>>>>>>>>>:]
+[2024-08-15 10:34:39,700: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 10:34:39,702: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 10:34:39,705: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 10:34:39,706: INFO: common: created directory at artifacts:]
+[2024-08-15 10:34:39,707: INFO: common: created directory at artifacts/data_validation:]
+[2024-08-15 10:34:39,728: INFO: main:  <<<<<<<<< Data validation Stage completed >>>>>>>>>>>:]
+[2024-08-15 10:34:39,728: INFO: main: <<<<<<<<<< Data Transformation stage started >>>>>>>>>>>>>:]
+[2024-08-15 10:34:39,731: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 10:34:39,732: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 10:34:39,737: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 10:34:39,738: INFO: common: created directory at artifacts:]
+[2024-08-15 10:34:39,739: INFO: common: created directory at artifacts/data_transformation:]
+[2024-08-15 10:34:39,739: ERROR: main: DataTransformationConfig.__init__() got an unexpected keyword argument 'root_dir':]
+Traceback (most recent call last):
+  File "/Users/deepa/End-to-end-ML-project/main.py", line 35, in <module>
+    obj.main()
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/pipeline/stage_03_data_transformation.py", line 14, in main
+    data_transformation_config = config.get_data_transformation_config()
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/config/configuration.py", line 53, in get_data_transformation_config
+    data_transformation_config = DataTransformationConfig(
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DataTransformationConfig.__init__() got an unexpected keyword argument 'root_dir'
+[2024-08-15 10:38:02,147: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 10:38:02,151: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 10:38:02,165: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 10:38:02,191: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 10:38:02,200: INFO: common: created directory at artifacts:]
+[2024-08-15 10:38:02,201: INFO: common: created directory at artifacts/data_ingestion:]
+[2024-08-15 10:38:02,778: INFO: data_ingestion: artifacts/data_ingestion/data.zip download with following headers Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4A90:631B5:2422A1:264D4A:66BE2D2E
+Accept-Ranges: bytes
+Date: Thu, 15 Aug 2024 17:38:03 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770036-PAO
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1723743483.490855,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: e7b22db7808fbd42d1a663eefa2a6d502d046d0f
+Expires: Thu, 15 Aug 2024 17:43:03 GMT
+Source-Age: 203
+
+:]
+[2024-08-15 10:38:02,785: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has completed
+
+**********:]
+[2024-08-15 10:38:02,786: INFO: main: starting <<<<<<<<< Data validation Stage >>>>>>>>>>>:]
+[2024-08-15 10:38:02,792: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 10:38:02,794: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 10:38:02,798: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 10:38:02,800: INFO: common: created directory at artifacts:]
+[2024-08-15 10:38:02,801: INFO: common: created directory at artifacts/data_validation:]
+[2024-08-15 10:38:02,865: INFO: main:  <<<<<<<<< Data validation Stage completed >>>>>>>>>>>:]
+[2024-08-15 10:38:02,865: INFO: main: <<<<<<<<<< Data Transformation stage started >>>>>>>>>>>>>:]
+[2024-08-15 10:38:02,872: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 10:38:02,877: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 10:38:02,883: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 10:38:02,888: INFO: common: created directory at artifacts:]
+[2024-08-15 10:38:02,889: INFO: common: created directory at artifacts/data_transformation:]
+[2024-08-15 10:38:02,889: ERROR: main: DataTransformationConfig.__init__() got an unexpected keyword argument 'root_dir':]
+Traceback (most recent call last):
+  File "/Users/deepa/End-to-end-ML-project/main.py", line 35, in <module>
+    obj.main()
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/pipeline/stage_03_data_transformation.py", line 14, in main
+    data_transformation_config = config.get_data_transformation_config()
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/config/configuration.py", line 53, in get_data_transformation_config
+    data_transformation_config = DataTransformationConfig(
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DataTransformationConfig.__init__() got an unexpected keyword argument 'root_dir'
+[2024-08-15 10:58:13,458: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 10:58:13,463: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 10:58:13,469: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 10:58:13,473: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 10:58:13,476: INFO: common: created directory at artifacts:]
+[2024-08-15 10:58:13,477: INFO: common: created directory at artifacts/data_ingestion:]
+[2024-08-15 10:58:14,444: INFO: data_ingestion: artifacts/data_ingestion/data.zip download with following headers Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4A90:631B5:2422A1:264D4A:66BE2D2E
+Accept-Ranges: bytes
+Date: Thu, 15 Aug 2024 17:58:15 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770051-PAO
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1723744695.898173,VS0,VE127
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 7d575e6a6848531a23e4283f3e873610d79a508a
+Expires: Thu, 15 Aug 2024 18:03:15 GMT
+Source-Age: 0
+
+:]
+[2024-08-15 10:58:14,452: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has completed
+
+**********:]
+[2024-08-15 10:58:14,453: INFO: main: starting <<<<<<<<< Data validation Stage >>>>>>>>>>>:]
+[2024-08-15 10:58:14,462: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 10:58:14,466: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 10:58:14,470: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 10:58:14,475: INFO: common: created directory at artifacts:]
+[2024-08-15 10:58:14,476: INFO: common: created directory at artifacts/data_validation:]
+[2024-08-15 10:58:14,508: INFO: main:  <<<<<<<<< Data validation Stage completed >>>>>>>>>>>:]
+[2024-08-15 10:58:14,508: INFO: main: <<<<<<<<<< Data Transformation stage started >>>>>>>>>>>>>:]
+[2024-08-15 10:58:14,511: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 10:58:14,512: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 10:58:14,515: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 10:58:14,516: INFO: common: created directory at artifacts:]
+[2024-08-15 10:58:14,517: INFO: common: created directory at artifacts/data_transformation:]
+[2024-08-15 10:58:14,517: ERROR: main: DataTransformationConfig.__init__() got an unexpected keyword argument 'root_dir':]
+Traceback (most recent call last):
+  File "/Users/deepa/End-to-end-ML-project/main.py", line 35, in <module>
+    obj.main()
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/pipeline/stage_03_data_transformation.py", line 14, in main
+    data_transformation_config = config.get_data_transformation_config()
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/config/configuration.py", line 53, in get_data_transformation_config
+    data_transformation_config = DataTransformationConfig(
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DataTransformationConfig.__init__() got an unexpected keyword argument 'root_dir'
+[2024-08-15 10:59:45,878: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 10:59:45,883: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 10:59:45,889: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 10:59:45,895: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 10:59:45,903: INFO: common: created directory at artifacts:]
+[2024-08-15 10:59:45,904: INFO: common: created directory at artifacts/data_ingestion:]
+[2024-08-15 10:59:46,448: INFO: data_ingestion: artifacts/data_ingestion/data.zip download with following headers Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4A90:631B5:2422A1:264D4A:66BE2D2E
+Accept-Ranges: bytes
+Date: Thu, 15 Aug 2024 17:59:48 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770040-PAO
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1723744788.455643,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: a101e759dafd1e9f7dba82537e121e6bebe7597d
+Expires: Thu, 15 Aug 2024 18:04:48 GMT
+Source-Age: 93
+
+:]
+[2024-08-15 10:59:46,452: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has completed
+
+**********:]
+[2024-08-15 10:59:46,453: INFO: main: starting <<<<<<<<< Data validation Stage >>>>>>>>>>>:]
+[2024-08-15 10:59:46,457: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 10:59:46,458: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 10:59:46,461: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 10:59:46,465: INFO: common: created directory at artifacts:]
+[2024-08-15 10:59:46,469: INFO: common: created directory at artifacts/data_validation:]
+[2024-08-15 10:59:46,530: INFO: main:  <<<<<<<<< Data validation Stage completed >>>>>>>>>>>:]
+[2024-08-15 10:59:46,533: INFO: main: <<<<<<<<<< Data Transformation stage started >>>>>>>>>>>>>:]
+[2024-08-15 10:59:46,537: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 10:59:46,540: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 10:59:46,545: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 10:59:46,547: INFO: common: created directory at artifacts:]
+[2024-08-15 10:59:46,548: INFO: common: created directory at artifacts/data_transformation:]
+[2024-08-15 10:59:46,548: ERROR: main: DataTransformationConfig.__init__() got an unexpected keyword argument 'root_dir':]
+Traceback (most recent call last):
+  File "/Users/deepa/End-to-end-ML-project/main.py", line 35, in <module>
+    obj.main()
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/pipeline/stage_03_data_transformation.py", line 14, in main
+    data_transformation_config = config.get_data_transformation_config()
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/deepa/End-to-end-ML-project/src/mlProject/config/configuration.py", line 53, in get_data_transformation_config
+    data_transformation_config = DataTransformationConfig(
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DataTransformationConfig.__init__() got an unexpected keyword argument 'root_dir'
+[2024-08-15 11:07:24,715: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 11:07:24,721: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 11:07:24,728: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 11:07:24,732: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 11:07:24,733: INFO: common: created directory at artifacts:]
+[2024-08-15 11:07:24,733: INFO: common: created directory at artifacts/data_ingestion:]
+[2024-08-15 11:07:25,616: INFO: data_ingestion: artifacts/data_ingestion/data.zip download with following headers Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4A90:631B5:2422A1:264D4A:66BE2D2E
+Accept-Ranges: bytes
+Date: Thu, 15 Aug 2024 18:07:27 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770067-PAO
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1723745247.378995,VS0,VE143
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 62fce3d2f82dec368ce050bf0aff5c7654b15da3
+Expires: Thu, 15 Aug 2024 18:12:27 GMT
+Source-Age: 0
+
+:]
+[2024-08-15 11:07:25,621: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has completed
+
+**********:]
+[2024-08-15 11:07:25,621: INFO: main: starting <<<<<<<<< Data validation Stage >>>>>>>>>>>:]
+[2024-08-15 11:07:25,630: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 11:07:25,635: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 11:07:25,649: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 11:07:25,650: INFO: common: created directory at artifacts:]
+[2024-08-15 11:07:25,650: INFO: common: created directory at artifacts/data_validation:]
+[2024-08-15 11:07:25,695: INFO: main:  <<<<<<<<< Data validation Stage completed >>>>>>>>>>>:]
+[2024-08-15 11:07:25,695: INFO: main: <<<<<<<<<< Data Transformation stage started >>>>>>>>>>>>>:]
+[2024-08-15 11:07:25,698: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 11:07:25,698: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 11:07:25,700: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 11:07:25,702: INFO: common: created directory at artifacts:]
+[2024-08-15 11:07:25,703: INFO: common: created directory at artifacts/data_transformation:]
+[2024-08-15 11:07:25,757: INFO: data_transformation: splitting data into train and test data:]
+[2024-08-15 11:07:25,758: INFO: data_transformation: (1199, 12):]
+[2024-08-15 11:07:25,758: INFO: data_transformation: (400, 12):]
+[2024-08-15 11:07:25,758: INFO: main: <<<<<<<<<< Data Transformation stage completed >>>>>>>>>>>>>:]
+[2024-08-15 11:09:55,408: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 11:09:55,412: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 11:09:55,419: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 11:09:55,423: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 11:09:55,426: INFO: common: created directory at artifacts:]
+[2024-08-15 11:09:55,427: INFO: common: created directory at artifacts/data_ingestion:]
+[2024-08-15 11:09:56,270: INFO: data_ingestion: artifacts/data_ingestion/data.zip download with following headers Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4A90:631B5:2422A1:264D4A:66BE2D2E
+Accept-Ranges: bytes
+Date: Thu, 15 Aug 2024 18:09:58 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770069-PAO
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1723745398.296061,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 436e2e4b47c523000f32f6e81d320c1281b06785
+Expires: Thu, 15 Aug 2024 18:14:58 GMT
+Source-Age: 151
+
+:]
+[2024-08-15 11:09:56,274: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has completed
+
+**********:]
+[2024-08-15 11:09:56,275: INFO: main: starting <<<<<<<<< Data validation Stage >>>>>>>>>>>:]
+[2024-08-15 11:09:56,278: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 11:09:56,279: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 11:09:56,282: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 11:09:56,283: INFO: common: created directory at artifacts:]
+[2024-08-15 11:09:56,283: INFO: common: created directory at artifacts/data_validation:]
+[2024-08-15 11:09:56,313: INFO: main:  <<<<<<<<< Data validation Stage completed >>>>>>>>>>>:]
+[2024-08-15 11:09:56,313: INFO: main: <<<<<<<<<< Data Transformation stage started >>>>>>>>>>>>>:]
+[2024-08-15 11:09:56,317: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 11:09:56,318: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 11:09:56,323: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 11:09:56,324: INFO: common: created directory at artifacts:]
+[2024-08-15 11:09:56,324: INFO: common: created directory at artifacts/data_transformation:]
+[2024-08-15 11:09:56,380: INFO: data_transformation: splitting data into train and test data:]
+[2024-08-15 11:09:56,381: INFO: data_transformation: (1199, 12):]
+[2024-08-15 11:09:56,381: INFO: data_transformation: (400, 12):]
+[2024-08-15 11:09:56,382: INFO: main: <<<<<<<<<< Data Transformation stage completed >>>>>>>>>>>>>:]
+[2024-08-15 12:33:05,763: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 12:33:05,769: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:33:05,790: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:33:05,796: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:33:05,852: INFO: common: created directory at artifacts:]
+[2024-08-15 12:33:05,853: INFO: common: created directory at artifacts/data_ingestion:]
+[2024-08-15 12:33:07,848: INFO: data_ingestion: artifacts/data_ingestion/data.zip download with following headers Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 59B3:1A77D:44DE00:47E6D0:66BE57F3
+Accept-Ranges: bytes
+Date: Thu, 15 Aug 2024 19:33:07 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770025-PAO
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1723750388.591034,VS0,VE161
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: a3ef4e167a8c5d4332a3dbfe0a41e07d188e475a
+Expires: Thu, 15 Aug 2024 19:38:07 GMT
+Source-Age: 0
+
+:]
+[2024-08-15 12:33:07,855: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has completed
+
+**********:]
+[2024-08-15 12:33:07,856: INFO: main: starting <<<<<<<<< Data validation Stage >>>>>>>>>>>:]
+[2024-08-15 12:33:07,858: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:33:07,859: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:33:07,866: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:33:07,867: INFO: common: created directory at artifacts:]
+[2024-08-15 12:33:07,868: INFO: common: created directory at artifacts/data_validation:]
+[2024-08-15 12:33:07,900: INFO: main:  <<<<<<<<< Data validation Stage completed >>>>>>>>>>>:]
+[2024-08-15 12:33:07,900: INFO: main: <<<<<<<<<< Data Transformation stage started >>>>>>>>>>>>>:]
+[2024-08-15 12:33:07,903: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:33:07,904: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:33:07,907: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:33:07,907: INFO: common: created directory at artifacts:]
+[2024-08-15 12:33:07,908: INFO: common: created directory at artifacts/data_transformation:]
+[2024-08-15 12:33:07,971: INFO: data_transformation: splitting data into train and test data:]
+[2024-08-15 12:33:07,971: INFO: data_transformation: (1199, 12):]
+[2024-08-15 12:33:07,972: INFO: data_transformation: (400, 12):]
+[2024-08-15 12:33:07,972: INFO: main: <<<<<<<<<< Data Transformation stage completed >>>>>>>>>>>>>:]
+[2024-08-15 12:33:07,972: INFO: main: >>>>>>>> Model training stage started <<<<<<<<:]
+[2024-08-15 12:33:07,974: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:33:07,975: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:33:07,991: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:33:07,992: INFO: common: created directory at artifacts:]
+[2024-08-15 12:33:07,993: INFO: common: created directory at artifacts/model_trainer:]
+[2024-08-15 12:33:07,993: INFO: main: ModelTrainer.__init__() got an unexpected keyword argument 'config':]
+[2024-08-15 12:35:38,045: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 12:35:38,052: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:35:38,055: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:35:38,063: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:35:38,064: INFO: common: created directory at artifacts:]
+[2024-08-15 12:35:38,065: INFO: common: created directory at artifacts/data_ingestion:]
+[2024-08-15 12:35:38,692: INFO: data_ingestion: artifacts/data_ingestion/data.zip download with following headers Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 59B3:1A77D:44DE00:47E6D0:66BE57F3
+Accept-Ranges: bytes
+Date: Thu, 15 Aug 2024 19:35:38 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770057-PAO
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1723750539.689030,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: f3a912800b7c3aefedf9729e374a69caa2e5bf97
+Expires: Thu, 15 Aug 2024 19:40:38 GMT
+Source-Age: 151
+
+:]
+[2024-08-15 12:35:38,697: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has completed
+
+**********:]
+[2024-08-15 12:35:38,697: INFO: main: starting <<<<<<<<< Data validation Stage >>>>>>>>>>>:]
+[2024-08-15 12:35:38,702: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:35:38,704: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:35:38,710: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:35:38,711: INFO: common: created directory at artifacts:]
+[2024-08-15 12:35:38,712: INFO: common: created directory at artifacts/data_validation:]
+[2024-08-15 12:35:38,748: INFO: main:  <<<<<<<<< Data validation Stage completed >>>>>>>>>>>:]
+[2024-08-15 12:35:38,748: INFO: main: <<<<<<<<<< Data Transformation stage started >>>>>>>>>>>>>:]
+[2024-08-15 12:35:38,759: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:35:38,760: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:35:38,764: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:35:38,777: INFO: common: created directory at artifacts:]
+[2024-08-15 12:35:38,779: INFO: common: created directory at artifacts/data_transformation:]
+[2024-08-15 12:35:38,897: INFO: data_transformation: splitting data into train and test data:]
+[2024-08-15 12:35:38,897: INFO: data_transformation: (1199, 12):]
+[2024-08-15 12:35:38,898: INFO: data_transformation: (400, 12):]
+[2024-08-15 12:35:38,898: INFO: main: <<<<<<<<<< Data Transformation stage completed >>>>>>>>>>>>>:]
+[2024-08-15 12:35:38,900: INFO: main: >>>>>>>> Model training stage started <<<<<<<<:]
+[2024-08-15 12:35:38,908: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:35:38,909: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:35:38,912: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:35:38,913: INFO: common: created directory at artifacts:]
+[2024-08-15 12:35:38,915: INFO: common: created directory at artifacts/model_trainer:]
+[2024-08-15 12:35:38,915: INFO: main: ModelTrainer.__init__() got an unexpected keyword argument 'config':]
+[2024-08-15 12:41:52,156: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 12:41:52,161: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:41:52,168: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:41:52,172: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:41:52,176: INFO: common: created directory at artifacts:]
+[2024-08-15 12:41:52,177: INFO: common: created directory at artifacts/data_ingestion:]
+[2024-08-15 12:41:53,153: INFO: data_ingestion: artifacts/data_ingestion/data.zip download with following headers Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 59B3:1A77D:44DE00:47E6D0:66BE57F3
+Accept-Ranges: bytes
+Date: Thu, 15 Aug 2024 19:41:52 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770077-PAO
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1723750913.818851,VS0,VE140
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 9c6dd1cb253738265c48720404ac74cb516739b9
+Expires: Thu, 15 Aug 2024 19:46:52 GMT
+Source-Age: 0
+
+:]
+[2024-08-15 12:41:53,161: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has completed
+
+**********:]
+[2024-08-15 12:41:53,161: INFO: main: starting <<<<<<<<< Data validation Stage >>>>>>>>>>>:]
+[2024-08-15 12:41:53,172: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:41:53,175: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:41:53,178: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:41:53,179: INFO: common: created directory at artifacts:]
+[2024-08-15 12:41:53,180: INFO: common: created directory at artifacts/data_validation:]
+[2024-08-15 12:41:53,283: INFO: main:  <<<<<<<<< Data validation Stage completed >>>>>>>>>>>:]
+[2024-08-15 12:41:53,283: INFO: main: <<<<<<<<<< Data Transformation stage started >>>>>>>>>>>>>:]
+[2024-08-15 12:41:53,286: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:41:53,288: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:41:53,291: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:41:53,292: INFO: common: created directory at artifacts:]
+[2024-08-15 12:41:53,293: INFO: common: created directory at artifacts/data_transformation:]
+[2024-08-15 12:41:53,359: INFO: data_transformation: splitting data into train and test data:]
+[2024-08-15 12:41:53,359: INFO: data_transformation: (1199, 12):]
+[2024-08-15 12:41:53,360: INFO: data_transformation: (400, 12):]
+[2024-08-15 12:41:53,360: INFO: main: <<<<<<<<<< Data Transformation stage completed >>>>>>>>>>>>>:]
+[2024-08-15 12:41:53,361: INFO: main: >>>>>>>> Model training stage started <<<<<<<<:]
+[2024-08-15 12:41:53,368: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:41:53,369: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:41:53,372: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:41:53,373: INFO: common: created directory at artifacts:]
+[2024-08-15 12:41:53,374: INFO: common: created directory at artifacts/model_trainer:]
+[2024-08-15 12:41:53,374: INFO: main: ModelTrainer.__init__() got an unexpected keyword argument 'config':]
+[2024-08-15 12:45:17,003: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 12:45:17,008: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:45:17,015: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:45:17,019: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:45:17,021: INFO: common: created directory at artifacts:]
+[2024-08-15 12:45:17,024: INFO: common: created directory at artifacts/data_ingestion:]
+[2024-08-15 12:45:17,827: INFO: data_ingestion: artifacts/data_ingestion/data.zip download with following headers Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 59B3:1A77D:44DE00:47E6D0:66BE57F3
+Accept-Ranges: bytes
+Date: Thu, 15 Aug 2024 19:45:17 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770071-PAO
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1723751118.853646,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: ef26c2ad1165f57e5dd062b7402bf12d579a7649
+Expires: Thu, 15 Aug 2024 19:50:17 GMT
+Source-Age: 205
+
+:]
+[2024-08-15 12:45:17,833: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has completed
+
+**********:]
+[2024-08-15 12:45:17,833: INFO: main: starting <<<<<<<<< Data validation Stage >>>>>>>>>>>:]
+[2024-08-15 12:45:17,838: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:45:17,840: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:45:17,844: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:45:17,845: INFO: common: created directory at artifacts:]
+[2024-08-15 12:45:17,847: INFO: common: created directory at artifacts/data_validation:]
+[2024-08-15 12:45:17,882: INFO: main:  <<<<<<<<< Data validation Stage completed >>>>>>>>>>>:]
+[2024-08-15 12:45:17,882: INFO: main: <<<<<<<<<< Data Transformation stage started >>>>>>>>>>>>>:]
+[2024-08-15 12:45:17,886: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:45:17,887: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:45:17,893: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:45:17,894: INFO: common: created directory at artifacts:]
+[2024-08-15 12:45:17,895: INFO: common: created directory at artifacts/data_transformation:]
+[2024-08-15 12:45:17,959: INFO: data_transformation: splitting data into train and test data:]
+[2024-08-15 12:45:17,959: INFO: data_transformation: (1199, 12):]
+[2024-08-15 12:45:17,959: INFO: data_transformation: (400, 12):]
+[2024-08-15 12:45:17,959: INFO: main: <<<<<<<<<< Data Transformation stage completed >>>>>>>>>>>>>:]
+[2024-08-15 12:45:17,960: INFO: main: >>>>>>>> Model training stage started <<<<<<<<:]
+[2024-08-15 12:45:17,962: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:45:17,963: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:45:17,966: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:45:17,967: INFO: common: created directory at artifacts:]
+[2024-08-15 12:45:17,967: INFO: common: created directory at artifacts/model_trainer:]
+[2024-08-15 12:45:17,967: INFO: main: ModelTrainer.__init__() got an unexpected keyword argument 'config':]
+[2024-08-15 12:48:35,470: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 12:48:35,475: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:48:35,481: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:48:35,486: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:48:35,489: INFO: common: created directory at artifacts:]
+[2024-08-15 12:48:35,489: INFO: common: created directory at artifacts/data_ingestion:]
+[2024-08-15 12:48:36,599: INFO: data_ingestion: artifacts/data_ingestion/data.zip download with following headers Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 59B3:1A77D:44DE00:47E6D0:66BE57F3
+Accept-Ranges: bytes
+Date: Thu, 15 Aug 2024 19:48:36 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770076-PAO
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1723751316.330627,VS0,VE159
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: f0ed78be43612cb7069a0504d810bc1527c83529
+Expires: Thu, 15 Aug 2024 19:53:36 GMT
+Source-Age: 0
+
+:]
+[2024-08-15 12:48:36,611: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has completed
+
+**********:]
+[2024-08-15 12:48:36,612: INFO: main: starting <<<<<<<<< Data validation Stage >>>>>>>>>>>:]
+[2024-08-15 12:48:36,622: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:48:36,625: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:48:36,633: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:48:36,635: INFO: common: created directory at artifacts:]
+[2024-08-15 12:48:36,636: INFO: common: created directory at artifacts/data_validation:]
+[2024-08-15 12:48:36,677: INFO: main:  <<<<<<<<< Data validation Stage completed >>>>>>>>>>>:]
+[2024-08-15 12:48:36,677: INFO: main: <<<<<<<<<< Data Transformation stage started >>>>>>>>>>>>>:]
+[2024-08-15 12:48:36,683: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:48:36,685: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:48:36,689: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:48:36,692: INFO: common: created directory at artifacts:]
+[2024-08-15 12:48:36,693: INFO: common: created directory at artifacts/data_transformation:]
+[2024-08-15 12:48:36,767: INFO: data_transformation: splitting data into train and test data:]
+[2024-08-15 12:48:36,767: INFO: data_transformation: (1199, 12):]
+[2024-08-15 12:48:36,768: INFO: data_transformation: (400, 12):]
+[2024-08-15 12:48:36,768: INFO: main: <<<<<<<<<< Data Transformation stage completed >>>>>>>>>>>>>:]
+[2024-08-15 12:48:36,768: INFO: main: >>>>>>>> Model training stage started <<<<<<<<:]
+[2024-08-15 12:48:36,771: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:48:36,772: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:48:36,783: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:48:36,784: INFO: common: created directory at artifacts:]
+[2024-08-15 12:48:36,784: INFO: common: created directory at artifacts/model_trainer:]
+[2024-08-15 12:48:36,831: INFO: main: 'DataFrame' object is not callable:]
+[2024-08-15 12:53:07,449: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 12:53:07,454: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:53:07,462: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:53:07,465: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:53:07,470: INFO: common: created directory at artifacts:]
+[2024-08-15 12:53:07,471: INFO: common: created directory at artifacts/data_ingestion:]
+[2024-08-15 12:53:08,219: INFO: data_ingestion: artifacts/data_ingestion/data.zip download with following headers Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 59B3:1A77D:44DE00:47E6D0:66BE57F3
+Accept-Ranges: bytes
+Date: Thu, 15 Aug 2024 19:53:08 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770037-PAO
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1723751588.220877,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: ea20436d3b23c24abe9bd890e8ad9f931ac87112
+Expires: Thu, 15 Aug 2024 19:58:08 GMT
+Source-Age: 272
+
+:]
+[2024-08-15 12:53:08,271: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has completed
+
+**********:]
+[2024-08-15 12:53:08,272: INFO: main: starting <<<<<<<<< Data validation Stage >>>>>>>>>>>:]
+[2024-08-15 12:53:08,276: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:53:08,279: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:53:08,282: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:53:08,284: INFO: common: created directory at artifacts:]
+[2024-08-15 12:53:08,285: INFO: common: created directory at artifacts/data_validation:]
+[2024-08-15 12:53:08,350: INFO: main:  <<<<<<<<< Data validation Stage completed >>>>>>>>>>>:]
+[2024-08-15 12:53:08,351: INFO: main: <<<<<<<<<< Data Transformation stage started >>>>>>>>>>>>>:]
+[2024-08-15 12:53:08,354: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:53:08,355: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:53:08,358: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:53:08,359: INFO: common: created directory at artifacts:]
+[2024-08-15 12:53:08,359: INFO: common: created directory at artifacts/data_transformation:]
+[2024-08-15 12:53:08,477: INFO: data_transformation: splitting data into train and test data:]
+[2024-08-15 12:53:08,477: INFO: data_transformation: (1199, 12):]
+[2024-08-15 12:53:08,477: INFO: data_transformation: (400, 12):]
+[2024-08-15 12:53:08,477: INFO: main: <<<<<<<<<< Data Transformation stage completed >>>>>>>>>>>>>:]
+[2024-08-15 12:53:08,478: INFO: main: >>>>>>>> Model training stage started <<<<<<<<:]
+[2024-08-15 12:53:08,481: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:53:08,484: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:53:08,487: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:53:08,492: INFO: common: created directory at artifacts:]
+[2024-08-15 12:53:08,494: INFO: common: created directory at artifacts/model_trainer:]
+[2024-08-15 12:53:08,517: INFO: main: ElasticNet.__init__() got an unexpected keyword argument 'li_ratio':]
+[2024-08-15 12:54:24,846: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 12:54:24,850: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:54:24,856: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:54:24,864: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:54:24,866: INFO: common: created directory at artifacts:]
+[2024-08-15 12:54:24,866: INFO: common: created directory at artifacts/data_ingestion:]
+[2024-08-15 12:54:25,454: INFO: data_ingestion: artifacts/data_ingestion/data.zip download with following headers Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 59B3:1A77D:44DE00:47E6D0:66BE57F3
+Accept-Ranges: bytes
+Date: Thu, 15 Aug 2024 19:54:25 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770040-PAO
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1723751665.358479,VS0,VE137
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 23895143acdc441d84b172d9e5e3be85003b6c85
+Expires: Thu, 15 Aug 2024 19:59:25 GMT
+Source-Age: 0
+
+:]
+[2024-08-15 12:54:25,458: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has completed
+
+**********:]
+[2024-08-15 12:54:25,458: INFO: main: starting <<<<<<<<< Data validation Stage >>>>>>>>>>>:]
+[2024-08-15 12:54:25,473: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:54:25,476: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:54:25,486: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:54:25,488: INFO: common: created directory at artifacts:]
+[2024-08-15 12:54:25,488: INFO: common: created directory at artifacts/data_validation:]
+[2024-08-15 12:54:25,527: INFO: main:  <<<<<<<<< Data validation Stage completed >>>>>>>>>>>:]
+[2024-08-15 12:54:25,527: INFO: main: <<<<<<<<<< Data Transformation stage started >>>>>>>>>>>>>:]
+[2024-08-15 12:54:25,537: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:54:25,539: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:54:25,542: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:54:25,543: INFO: common: created directory at artifacts:]
+[2024-08-15 12:54:25,544: INFO: common: created directory at artifacts/data_transformation:]
+[2024-08-15 12:54:25,623: INFO: data_transformation: splitting data into train and test data:]
+[2024-08-15 12:54:25,624: INFO: data_transformation: (1199, 12):]
+[2024-08-15 12:54:25,624: INFO: data_transformation: (400, 12):]
+[2024-08-15 12:54:25,625: INFO: main: <<<<<<<<<< Data Transformation stage completed >>>>>>>>>>>>>:]
+[2024-08-15 12:54:25,625: INFO: main: >>>>>>>> Model training stage started <<<<<<<<:]
+[2024-08-15 12:54:25,630: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:54:25,635: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:54:25,641: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:54:25,643: INFO: common: created directory at artifacts:]
+[2024-08-15 12:54:25,644: INFO: common: created directory at artifacts/model_trainer:]
+[2024-08-15 12:54:25,686: INFO: main: ElasticNet.__init__() got an unexpected keyword argument 'Li_ratio':]
+[2024-08-15 12:57:16,871: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 12:57:16,877: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:57:16,884: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:57:16,887: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:57:16,891: INFO: common: created directory at artifacts:]
+[2024-08-15 12:57:16,892: INFO: common: created directory at artifacts/data_ingestion:]
+[2024-08-15 12:57:17,521: INFO: data_ingestion: artifacts/data_ingestion/data.zip download with following headers Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 59B3:1A77D:44DE00:47E6D0:66BE57F3
+Accept-Ranges: bytes
+Date: Thu, 15 Aug 2024 19:57:17 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770022-PAO
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1723751838.565352,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: acc02675890cb4c0fa0c15052220dd51523c629d
+Expires: Thu, 15 Aug 2024 20:02:17 GMT
+Source-Age: 172
+
+:]
+[2024-08-15 12:57:17,525: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has completed
+
+**********:]
+[2024-08-15 12:57:17,525: INFO: main: starting <<<<<<<<< Data validation Stage >>>>>>>>>>>:]
+[2024-08-15 12:57:17,536: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:57:17,540: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:57:17,545: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:57:17,550: INFO: common: created directory at artifacts:]
+[2024-08-15 12:57:17,554: INFO: common: created directory at artifacts/data_validation:]
+[2024-08-15 12:57:17,590: INFO: main:  <<<<<<<<< Data validation Stage completed >>>>>>>>>>>:]
+[2024-08-15 12:57:17,590: INFO: main: <<<<<<<<<< Data Transformation stage started >>>>>>>>>>>>>:]
+[2024-08-15 12:57:17,593: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:57:17,594: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:57:17,601: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:57:17,602: INFO: common: created directory at artifacts:]
+[2024-08-15 12:57:17,603: INFO: common: created directory at artifacts/data_transformation:]
+[2024-08-15 12:57:17,655: INFO: data_transformation: splitting data into train and test data:]
+[2024-08-15 12:57:17,655: INFO: data_transformation: (1199, 12):]
+[2024-08-15 12:57:17,655: INFO: data_transformation: (400, 12):]
+[2024-08-15 12:57:17,656: INFO: main: <<<<<<<<<< Data Transformation stage completed >>>>>>>>>>>>>:]
+[2024-08-15 12:57:17,656: INFO: main: >>>>>>>> Model training stage started <<<<<<<<:]
+[2024-08-15 12:57:17,661: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:57:17,665: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:57:17,671: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:57:17,671: INFO: common: created directory at artifacts:]
+[2024-08-15 12:57:17,672: INFO: common: created directory at artifacts/model_trainer:]
+[2024-08-15 12:57:17,685: INFO: main: ElasticNet.__init__() got an unexpected keyword argument 'randon_seed':]
+[2024-08-15 12:58:03,807: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has started
+
+:]
+[2024-08-15 12:58:03,811: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:58:03,820: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:58:03,827: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:58:03,829: INFO: common: created directory at artifacts:]
+[2024-08-15 12:58:03,832: INFO: common: created directory at artifacts/data_ingestion:]
+[2024-08-15 12:58:04,320: INFO: data_ingestion: artifacts/data_ingestion/data.zip download with following headers Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 59B3:1A77D:44DE00:47E6D0:66BE57F3
+Accept-Ranges: bytes
+Date: Thu, 15 Aug 2024 19:58:04 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770065-PAO
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1723751884.305170,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 5736a460686d516c75b2a35f2bd586922acf1424
+Expires: Thu, 15 Aug 2024 20:03:04 GMT
+Source-Age: 219
+
+:]
+[2024-08-15 12:58:04,325: INFO: main: stage >>>>>> Data Ingestion stage <<<<<<<< has completed
+
+**********:]
+[2024-08-15 12:58:04,325: INFO: main: starting <<<<<<<<< Data validation Stage >>>>>>>>>>>:]
+[2024-08-15 12:58:04,341: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:58:04,343: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:58:04,354: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:58:04,358: INFO: common: created directory at artifacts:]
+[2024-08-15 12:58:04,359: INFO: common: created directory at artifacts/data_validation:]
+[2024-08-15 12:58:04,483: INFO: main:  <<<<<<<<< Data validation Stage completed >>>>>>>>>>>:]
+[2024-08-15 12:58:04,484: INFO: main: <<<<<<<<<< Data Transformation stage started >>>>>>>>>>>>>:]
+[2024-08-15 12:58:04,492: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:58:04,494: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:58:04,498: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:58:04,499: INFO: common: created directory at artifacts:]
+[2024-08-15 12:58:04,499: INFO: common: created directory at artifacts/data_transformation:]
+[2024-08-15 12:58:04,601: INFO: data_transformation: splitting data into train and test data:]
+[2024-08-15 12:58:04,601: INFO: data_transformation: (1199, 12):]
+[2024-08-15 12:58:04,601: INFO: data_transformation: (400, 12):]
+[2024-08-15 12:58:04,602: INFO: main: <<<<<<<<<< Data Transformation stage completed >>>>>>>>>>>>>:]
+[2024-08-15 12:58:04,602: INFO: main: >>>>>>>> Model training stage started <<<<<<<<:]
+[2024-08-15 12:58:04,606: INFO: common: yaml file config/config.yaml loaded successfully:]
+[2024-08-15 12:58:04,613: INFO: common: yaml file params.yaml loaded successfully:]
+[2024-08-15 12:58:04,621: INFO: common: yaml file schema.yaml loaded successfully:]
+[2024-08-15 12:58:04,625: INFO: common: created directory at artifacts:]
+[2024-08-15 12:58:04,627: INFO: common: created directory at artifacts/model_trainer:]
+[2024-08-15 12:58:04,680: INFO: main: >>>>>>>> Model training stage completed <<<<<<<<:]
