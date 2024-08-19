@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/deepa/End-to-end-ML-project/mlruns/0/e786c9a203454b32b42afc9023903732/artifacts
+end_time: 1723839841204
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e786c9a203454b32b42afc9023903732
+run_name: whimsical-eel-882
+run_uuid: e786c9a203454b32b42afc9023903732
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723839833592
+status: 3
+tags: []
+user_id: deepa

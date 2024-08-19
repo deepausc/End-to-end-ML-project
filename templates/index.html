@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/index.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="form-body">
+    <div class="row">
+        <div class="form-holder">
+            <div class="form-content">
+                <div class="form-items">
+                    <h3>Wine Quality  Prediction</h3>
+                    <p>Please fill in the data below.</p>
+                    <form class="requires-validation" action="/predict" method="POST">
+                       
+                        <div class="col-md-12">
+                           <input class="form-control" type="text" name="fixed_acidity" placeholder="Fixed Acidity" required>
+                           <div class="valid-feedback">Fluid Acidity field is valid!</div>
+                           <div class="invalid-feedback">Fluid Acidity field cannot be blank!</div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <input class="form-control" type="text" name="volatile_acidity" placeholder="Volatile Acidity" required>
+                             <div class="valid-feedback">Volatile Acidity field is valid!</div>
+                             <div class="invalid-feedback">Volatile Acidity field cannot be blank!</div>
+                        </div>
+
+                       <div class="col-md-12">
+                          <input class="form-control" type="text" name="citric_acid" placeholder="Citric Acid" required>
+                           <div class="valid-feedback">Citric Acid field is valid!</div>
+                           <div class="invalid-feedback">Citric Acid field cannot be blank!</div>
+                       </div>
+                       <div class="col-md-12">
+                        <input class="form-control" type="text" name="residual_sugar" placeholder="Residual Sugar" required>
+                        <div class="valid-feedback">Residual Sugar field is valid!</div>
+                        <div class="invalid-feedback">Residual Sugar field cannot be blank!</div>
+                     </div>
+
+                     <div class="col-md-12">
+                         <input class="form-control" type="text" name="chlorides" placeholder="Chlorides" required>
+                          <div class="valid-feedback">Chlorides field is valid!</div>
+                          <div class="invalid-feedback">Chlorides field cannot be blank!</div>
+                     </div>
+                     <div class="col-md-12">
+                        <input class="form-control" type="text" name="free_so2" placeholder="Free Sulphur dioxide" required>
+                        <div class="valid-feedback">Free Sulphur dioxide field is valid!</div>
+                        <div class="invalid-feedback">Free Sulphur dioxide field cannot be blank!</div>
+                     </div>
+
+                     <div class="col-md-12">
+                         <input class="form-control" type="text" name="total_so2" placeholder="Total Sulphur dioxide" required>
+                          <div class="valid-feedback">Total Sulphur dioxide field is valid!</div>
+                          <div class="invalid-feedback">Total Sulphur dioxide field cannot be blank!</div>
+                     </div>
+                     <div class="col-md-12">
+                        <input class="form-control" type="text" name="density" placeholder="Density" required>
+                        <div class="valid-feedback">Density field is valid!</div>
+                        <div class="invalid-feedback">Density field cannot be blank!</div>
+                     </div>
+
+                     <div class="col-md-12">
+                         <input class="form-control" type="text" name="ph" placeholder="Ph" required>
+                          <div class="valid-feedback">Ph field is valid!</div>
+                          <div class="invalid-feedback">Ph field cannot be blank!</div>
+                     </div>
+                     <div class="col-md-12">
+                        <input class="form-control" type="text" name="sulphates" placeholder="Sulphates" required>
+                        <div class="valid-feedback">Sulphates field is valid!</div>
+                        <div class="invalid-feedback">Sulphates field cannot be blank!</div>
+                     </div>
+
+                     <div class="col-md-12">
+                         <input class="form-control" type="text" name="alcohol" placeholder="Alcohol" required>
+                          <div class="valid-feedback">Alcohol field is valid!</div>
+                          <div class="invalid-feedback">Alcohol field cannot be blank!</div>
+                     </div>              
+
+                        <div class="form-button mt-3">
+                            <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

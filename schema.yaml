@@ -1,5 +1,5 @@
 COLUMNS:
-  fluid acidity: float64
+  fixed acidity: float64
   volatile acidity: float64
   citric acid: float64
   residual sugar: float64
